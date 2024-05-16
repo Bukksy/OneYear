@@ -1,0 +1,151 @@
+@font-face {
+    font-family: hs;
+    src: url(/fonts/HomenuliShadow.ttf);
+}
+
+@font-face {
+    font-family: hl;
+    src: url(/fonts/PrettyGoodDemoRegular.ttf);
+}
+
+@font-face {
+    font-family: hr;
+    src: url(/fonts/SoulBillani.otf);
+}
+
+@font-face {
+    font-family: hi;
+    src: url(/fonts/Stay\ and\ Shine.ttf);
+}
+
+
+*{
+    margin: 0 auto;
+}
+
+#main-header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+
+    background-color: #f7b9be;
+}
+
+#main-header nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+
+}
+
+#main-header a{
+    text-decoration: none;
+    font-family: hl;
+    margin: 0 10px;
+}
+
+#main-title{
+    text-align: center;
+    font-family: hs;
+    font-size: 45px;
+
+    color: #f7b9be;
+}
+
+#razon{
+    color: rgb(150, 69, 69);
+}
+
+#inicio, #nosotros{
+    color: white;
+}
+
+#inicio:hover , #nosotros:hover{
+    transform: scale(1.2);
+    transition: 1s ease-in-out;
+}
+
+/* ----------------------------------------- */
+.row{
+    width: 100%;
+    height: 690px;
+}
+
+#row1,#row3,#row5,#row7,#row9,#row11,#row13,#row15,#row17,#row19,#row21,#row23,#row25,#row27,#row29,#row31,#row33,#row35,#row37,#row39,#row41,#row43,#row45,#row47,#row49{
+    background: linear-gradient(white);
+}
+
+#row2,#row4,#row6,#row8,#row10,#row12,#row14,#row16,#row18,#row20,#row22,#row24,#row26,#row28,#row30,#row32,#row34,#row36,#row38,#row40,#row42,#row44,#row46,#row48,#row50{
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(251,227,227,1) 96%);
+}
+
+.razones-titulo{
+    text-align: center;
+    font-family: hi;
+
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    padding: 20px;
+}
+
+@keyframes example {
+    0%   {box-shadow:1px 1px 10px rgb(236, 170, 222);}
+    25%  {box-shadow:1px 1px 10px rgb(247, 200, 129);}
+    50%  {box-shadow:1px 1px 10px rgb(119, 119, 238);}
+    100% {box-shadow:1px 1px 10px rgb(202, 152, 248);}
+  }
+
+.razones-parrafos{
+    text-align: center;
+    box-shadow: 1px 1px 10px;
+
+    width: 300px;
+    height: 300px;
+
+    background-color: white;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+    border-radius: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: grid;
+    align-items: center;
+}
+
+.imagen-razones{
+    width: 130px;
+    display: grid;
+    box-shadow: 1px 1px 10px black;
+
+    border-radius: 20px;
+}
+
+.imagen-razones:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+
+@keyframes colores {
+    0%{color: rgb(65, 65, 65); text-shadow: 1px 1px 10px black;}
+    25%{color: gray; text-shadow: 1px 1px 10px gray;} 
+    50%{color: plum; text-shadow:  1px 1px 10px plum}
+    75%{color: pink; text-shadow: 1px 1px 10px pink;}
+    100%{color: rgb(255, 214, 220); text-shadow:  1px 1px 10px rgb(255, 214, 220);}
+}
+
+.animacion{
+    animation-name: colores;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}

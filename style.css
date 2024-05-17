@@ -91,7 +91,6 @@
 .botones:hover{
     transform: scale(1.1);
     transition: 1s ease-in-out;
-    box-shadow: 1px 1px 10px;
 }
 
 html, body {

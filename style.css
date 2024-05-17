@@ -77,9 +77,14 @@
 }
 
 .botones{
-    width: 100px;
     text-align: center;
     border-radius: 20px;
+    background-color: none;
+    border: none;
+}
+
+.botones img{
+    width: 80px
 }
 
 .row{
